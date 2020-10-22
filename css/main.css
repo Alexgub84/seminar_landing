@@ -33,7 +33,7 @@ header img{
 
 .hero{
     height: 42vh;
-    background-image: url("/images/hero.jpg");
+    background-image: url("images/hero.jpg");
     color: white;
     display: flex;
     position: relative;
@@ -83,7 +83,7 @@ header img{
 .img-left{
     width: 400px;
     height: 250px;
-    background-image: url("/images//relationship.jpg");
+    background-image: url("images//relationship.jpg");
     background-size: contain;
     margin-right: 10px;
     float: left;
