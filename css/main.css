@@ -25,7 +25,8 @@ header img{
     height: 40px;
 }
 .online{
-    background-color: #018EA7;
+    background-color: #ffc10757;
+    border-radius: 3px;
     padding: 3px 4px;
 }
 
@@ -33,7 +34,7 @@ header img{
 
 .hero{
     height: 42vh;
-    background-image: url("images/hero.jpg");
+    background-image: url("/images/hero.jpg");
     color: white;
     display: flex;
     position: relative;
@@ -65,7 +66,7 @@ header img{
 
 /* MAIN */
 .main{
-    height: -webkit-fill-available;
+        /* height: -webkit-fill-available; */
 }
 .main *{
     grid-column: 2; 
@@ -73,6 +74,7 @@ header img{
 }
 .first-par{
     width: 75ch;  
+    font-style: italic;
     text-align: center;
     margin: 20px auto;
 }
@@ -80,33 +82,51 @@ header img{
     font-size: 1.3em;
     
 }
+.img-par{
+    grid-column: 2; 
+    margin-bottom: 20px;
+
+}
 .img-left{
     width: 400px;
     height: 250px;
-    background-image: url("images//relationship.jpg");
+    background-image: url("/images//relationship.jpg");
     background-size: contain;
     margin-right: 10px;
     float: left;
 }
 .p-right{
-    line-height: 1.3em;
+    justify-content: stretch;
+    text-align: right;
 }
 
 .reg-btn{
-    width: 130px;
-    height: 30px;
+    padding: 4px 10px;
     font-size: 1.1em;
     background-color: #e16f00;
     display:flex;
     justify-content:center;
     align-items:center
 }
+.registration{
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 500px;
+}
+.reg-header{
+    background-color: #1D9ED4;
+    padding: 10px;
+    border-radius: 5px;
+
+}
 
 form{
     margin: auto;
     padding: 10px;
-    background-color: aliceblue;
+    
 }
+
 .city{
     width: 150px;
 }
@@ -123,6 +143,10 @@ footer{
     background-color: gray;
     display: flex;
     justify-content: space-around;
+}
+footer div{
+    margin: auto;
+    color:lightgray;
 }
 /*---- Media Queries ---------*/
 
