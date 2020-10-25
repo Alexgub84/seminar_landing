@@ -15,5 +15,5 @@
 
     $to="alex.gub@gmail.com";
     mail($to,$email_subject,$email_body);
-    header("lo cation: index.html");
+    header("location: home.html");
 ?>
