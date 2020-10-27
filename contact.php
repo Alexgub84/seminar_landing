@@ -19,5 +19,13 @@
 
     $msg = "try";
     $headers="Seminar reg";
-    mail("alex.gub@gmail.com","subject",$msg,$headers)
+    mail("alex.gub@gmail.com","subject",$msg,$headers);
+    if (mail("alex.gub@gmail.com","subject",$msg,$headers))
+    {
+        echo "Message accepted";
+    }
+    else
+    {
+        echo "Error: Message not accepted";
+    }
 ?>
