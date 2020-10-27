@@ -12,11 +12,11 @@ function init() {
         ev.stopPropagation()
         if (!validate()) return
 
-        const formData = new FormData(this);
+        const formData = new FormData(form);
         console.log(formData);
         fetch('contact.php',{
             method:'post',
-            body: FormData
+            // body: FormData
         })
             .then(res=>{
                 console.log(res);

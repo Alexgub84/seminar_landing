@@ -12,13 +12,12 @@
     // $email_body = "Name: $name.\n".
     //              "Email: $email.\n".
     //              "Participation history: $participation.\n";
-    $email_from='Landmark Registration site';
-    $email_subject='Seminar Registration';
-    $email_body = "Name: Alex.\n".
-                 "Email: bla@bla.\n".
-                 "Participation history: Hero.\n";
-    $headers = "From: alex@gmail.com \r\n";
-    $to="alex.gub@gmail.com";
-    mail($to,$email_subject,$email_body,$headers);
-    header("location: home.html");
+
+    // $to="alex.gub@gmail.com";
+    // mail($to,$email_subject,$email_body);
+    // header("location: home.html");
+
+    $msg = "try";
+    $headers="Seminar reg";
+    mail("alex.gub@gmail.com","subject",$msg,$headers)
 ?>
