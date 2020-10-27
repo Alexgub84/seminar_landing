@@ -17,8 +17,8 @@
     $email_body = "Name: Alex.\n".
                  "Email: bla@bla.\n".
                  "Participation history: Hero.\n";
-
+    $headers = "From: alex@gmail.com \r\n";
     $to="alex.gub@gmail.com";
-    mail($to,$email_subject,$email_body);
+    mail($to,$email_subject,$email_body,$headers);
     header("location: home.html");
 ?>
