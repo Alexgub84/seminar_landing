@@ -13,6 +13,7 @@ function init() {
         if (!validate()) return
 
         const formData = new FormData(this);
+        console.log(formData);
         fetch('contact.php',{
             method:'post',
             body: FormData
