@@ -12,20 +12,26 @@ function init() {
         ev.preventDefault();
         if (!validate()) return
         $('#alert').show();
-        fetch("/", {
+
+        const formData = new FormData(form);
+
+        
+        fetch(form.getAttribute('action'), {
             method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: this.encode({
-              "form-name": "ask-question",
-              "form_field": "something"
+            headers: {
+                'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+                'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+              },
+              body: new URLSearchParams(formData).toString()
             })
-          })
             .then(() => {
                 let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no, width=0,height=0,left=-1000,top=-1000`;
                 setTimeout(() => {
                     window.open(PAYMENT_URL,'Seminar payment',params)
                 }, 2000)            })
-        
+            .catch(() => {
+                    console.log();('failed');
+            })   
 
     })
 
