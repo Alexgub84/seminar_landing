@@ -15,7 +15,7 @@
 
     $headers="Seminar reg";
     $to="alex.gub@gmail.com";
-     mail($to,$email_subject,$email_body);
+    // mail($to,$email_subject,$email_body);
 
     $msg = "try";
 
