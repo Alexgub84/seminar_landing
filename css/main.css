@@ -146,12 +146,13 @@ form{
 /* FOOTER */
 
 footer{
+    position: static;
     height: 50px;
     background-color: gray;
-    display: flex;
-    justify-content: space-around;
+    
 }
 footer div{
+    position: relative;
     text-align: center;
     color:#403e3e;
 }
@@ -191,6 +192,9 @@ footer div{
     }
     .img-par{
         flex-direction: column;       
+    }
+    .img-left{
+        min-width: 300px;
     }
     .p-right{
         text-align: center;
