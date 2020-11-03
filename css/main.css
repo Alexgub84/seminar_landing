@@ -210,8 +210,11 @@ footer div{
         grid-template-columns: 5px 1fr 5px;
     }
     header .container{
-      
         font-size: 1rem;
+    }
+
+    .hero{ 
+        background-image: url("/images/hero-mobile.png");
     }
     .first-par{
         width: auto;
