@@ -34,7 +34,9 @@ header img{
 
 .hero{
     height: 355px;
-    background-image: url("/images/hero.jpg");
+    background-image: url("/images/hero1.png");
+    background-size: cover;
+    background-position: center;
     color: white;
     display: flex;
     position: relative;
