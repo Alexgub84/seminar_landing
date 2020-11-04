@@ -94,8 +94,9 @@ header img{
 .img-left{
     min-width: 400px;
     height: 250px;
-    object-fit: cover;
-    background-image: url("/images//relationship.jpg");
+    background-image: url("/images/relationship1.jpg");
+    background-size: cover;
+    background-position: center;
     margin-right: 10px;
 }
 .p-right{
