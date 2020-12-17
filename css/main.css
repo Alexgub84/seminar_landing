@@ -146,14 +146,13 @@ form {
 
 footer {
   position: static;
-  height: 50px;
   background-color: gray;
 }
 footer div {
+  padding: 10px;
   position: relative;
   text-align: center;
   vertical-align: middle;
-  line-height: 50px;
   color: #403e3e;
 }
 
