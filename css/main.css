@@ -32,7 +32,7 @@ header img {
 
 .hero {
   height: 355px;
-  background-image: url("/images/hero1.png");
+  background-image: url("/images/hero.png");
   background-size: cover;
   background-position: center;
   color: white;
