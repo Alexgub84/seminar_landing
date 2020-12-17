@@ -152,7 +152,8 @@ footer {
 footer div {
   position: relative;
   text-align: center;
-  padding: 13px;
+  vertical-align: middle;
+  line-height: 50px;
   color: #403e3e;
 }
 
@@ -210,6 +211,12 @@ footer div {
 
   .hero {
     background-image: url("/images/hero-mobile.png");
+  }
+  .hero h1 {
+    font-size: 2.7rem;
+  }
+  .hero h2 {
+    font-size: 1.6rem;
   }
   .first-par {
     width: auto;
