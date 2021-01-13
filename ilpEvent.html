@@ -86,45 +86,88 @@
     </div>
 
     <section class="registration">
-      
-        <div class="alert alert-success alert-dismissible text-right hidden" role="alert" id="alert">
-       הפרטים שלך נשלחו! תודה רבה
+      <div
+        class="alert alert-success alert-dismissible text-right hidden"
+        role="alert"
+        id="alert"
+      >
+        הפרטים שלך נשלחו! תודה רבה
+      </div>
+      <form
+        name="ilp-event-form"
+        class="middle needs-validation"
+        id="ilp-form"
+        method="POST"
+        action=""
+        data-netlify="true"
+        novalidate
+      >
+        <div class="row mb-2 name">
+          <div class="col text-right">
+            <label for="inputName">שם פרטי</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="inputName"
+              placeholder="שם פרטי"
+              required
+            />
           </div>
-        <form name="ilp-event-form" class="middle needs-validation" id="ilp-form" method="POST" action="" data-netlify="true" novalidate >
-            <div class="row mb-2 name">
-                <div class="col text-right">
-                    <label for="inputName">שם פרטי</label>
-                    <input type="text" class="form-control" name="name" id="inputName" placeholder="שם פרטי" required>
-                </div>
-                <div class="col text-right">
-                    <label for="inputLastName">שם משפחה</label>
-                    <input type="text" class="form-control" name="lastname" id="inputLastName" placeholder="שם משפחה" required>
-                </div>
-            </div>
-          
-                <div class="mb-2 text-right">
-                    <label for="course">מספר תוכנית או שנה שבה השתתפת</label>
-                    <input type="text" class="form-control" name="course" id="inputCourse" placeholder="תוכנית מספר..." required>
-                </div>
-            </div>
-            <div class="form-check text-right">
-                <label for="attendance">אישור הגעה </label>
-                    <br>
-                <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="attendance" id="inlineRadio1" value="coming" required>
-                        <label class="form-check-label" for="inlineRadio1"> מגיע </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="attendance" id="inlineRadio2" value="not-coming" required>
-                    <label class="form-check-label" for="inlineRadio2"> לא מגיע </label>
-                </div>
-            </div>
-      
-            <div class=" text-center">
-                <button  type="submit" class="btn btn-primary submit-btn" >שלח  </button>
-            </div>
-        </form>
-
+          <div class="col text-right">
+            <label for="inputLastName">שם משפחה</label>
+            <input
+              type="text"
+              class="form-control"
+              name="lastname"
+              id="inputLastName"
+              placeholder="שם משפחה"
+              required
+            />
+          </div>
+        </div>
+        <div class="mb-2 text-right">
+          <label for="course">מספר תוכנית או שנה שבה השתתפת</label>
+          <input
+            type="text"
+            class="form-control"
+            name="course"
+            id="inputCourse"
+            placeholder="תוכנית"
+            required
+          />
+        </div>
+        <div class="form-check text-right">
+          <label for="attendance">אישור הגעה </label>
+          <br />
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="attendance"
+              id="inlineRadio1"
+              value="coming"
+              required
+            />
+            <label class="form-check-label" for="inlineRadio1"> מגיע </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="attendance"
+              id="inlineRadio2"
+              value="not-coming"
+              required
+            />
+            <label class="form-check-label" for="inlineRadio2"> לא מגיע </label>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary submit-btn">שלח</button>
+        </div>
+      </form>
+    </section>
 
     <footer>
       <div>זכויות יוצרים © Landmark Worldwide 2020. כל הזכויות שמורות.</div>

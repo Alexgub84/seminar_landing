@@ -73,6 +73,9 @@ header img {
 .description h4 {
   font-size: 1.5625em;
 }
+.description a {
+  font-family: Rubik-Medium;
+}
 .michal {
   height: 400px;
   background-color: #391f65;
@@ -173,16 +176,22 @@ footer div {
   .main-container {
     grid-template-columns: 5px 1fr 5px;
   }
-  .img-par {
+  .michal {
+    height: auto;
+    background-color: #391f65;
+    color: #fff;
+  }
+
+  .michal-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .img-left {
-    float: none;
+  .michal img {
+    height: 300px;
   }
-  .p-right {
-    text-align: center;
-    margin: 10px 20px;
+  form {
+    min-width: 400px;
   }
 }
 @media (max-width: 460px) {
@@ -194,27 +203,10 @@ footer div {
   }
 
   .hero {
-    background-image: url("/images/hero-mobile.png");
+    background: linear-gradient(rgba(14, 14, 14, 0.45), rgba(14, 14, 14, 0.45)),
+      url(/images/ilpevent/hero-mobile.jpg);
   }
-  .hero h1 {
-    font-size: 2.7rem;
-  }
-  .hero h2 {
-    font-size: 1.6rem;
-  }
-  .first-par {
-    width: auto;
-  }
-  .img-par {
-    flex-direction: column;
-  }
-  .img-left {
-    min-width: 300px;
-  }
-  .p-right {
-    text-align: center;
-    margin: 10px 20px;
-  }
+
   .registration {
     width: 98vw;
   }
