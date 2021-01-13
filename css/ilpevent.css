@@ -101,6 +101,15 @@ header img {
   max-width: 600px;
   margin: auto;
 }
+
+/* REGISTRATION */
+
+.registration {
+  background-color: aliceblue;
+  margin: 0 auto 10px;
+  border-radius: 5px;
+  width: 500px;
+}
 form {
   max-width: 500px;
   margin: auto;
