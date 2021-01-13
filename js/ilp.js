@@ -1,7 +1,6 @@
 "use strict";
 
 function init() {
-  const alert = document.querySelector(".alert-link");
   const form = document.querySelector("form");
   form.addEventListener("submit", (ev) => {
     ev.preventDefault();
