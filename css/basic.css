@@ -1,50 +1,57 @@
-@font-face{
-    font-family: Rubik-Regular;
-    src: url('./fonts/Rubik-Regular.ttf');
+@font-face {
+  font-family: Rubik-Regular;
+  src: url("./fonts/Rubik-Regular.ttf");
 }
-@font-face{
-    font-family: Rubik-Italic;
-    src: url('./fonts/Rubik-Italic.ttf');
+@font-face {
+  font-family: Rubik-Italic;
+  src: url("./fonts/Rubik-Italic.ttf");
 }
-@font-face{
-    font-family: Rubik-Bold;
-    src: url('./fonts/Rubik-Bold.ttf');
+@font-face {
+  font-family: Rubik-Bold;
+  src: url("./fonts/Rubik-Bold.ttf");
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url("./fonts/Rubik-Medium.ttf");
 }
 
 * {
-    box-sizing: border-box;
-    direction: rtl;
+  box-sizing: border-box;
+  direction: rtl;
 }
 
 html {
-    font-family:  Rubik-Regular;
+  font-family: Rubik-Regular;
 }
 
 body {
-    
-    margin: 0;
+  margin: 0;
 }
 
-h1, h2,h3, h4 {
-    font-family:  Rubik-Bold;
-    text-align: center;
+h1,
+h2,
+h3,
+h4 {
+  font-family: Rubik-Bold;
+  text-align: center;
 }
 
- h5, h6{
-    font-family:  Rubik-Regular;
-    text-align: center;
+h5,
+h6 {
+  font-family: Rubik-Regular;
+  text-align: center;
 }
 
 .main-container {
-    display: grid;
-    grid-template-columns: 100px 1fr 100px;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
 }
-.full{
-    grid-column: 1 /-1;
+.full {
+  grid-column: 1 /-1;
 }
-.middle{
-    grid-column: 2;
+.middle {
+  grid-column: 2;
 }
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
