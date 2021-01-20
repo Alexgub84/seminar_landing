@@ -1,113 +1,197 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>לנדמרק | להיות כאן ועכשיו</title>
+    <meta
+      name="description"
+      content="סמינר להיות כאן ועכשיו של לנדמרק. היפכו להיות מאסטרים בלחיות את החיים כאן ועכשיו בכל רגע ורגע  "
+    />
+    <meta property="og:title" content="סמינר להיות כאן ועכשיו" />
+    <meta property="og:url" content="https://landmarkisrael.online/seminar" />
+    <meta
+      property="og:image"
+      content="https://seminar-reg.netlify.app/images/thumb.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image:alt" content="Landmark Seminar" />
 
-<head>
-    <title>לנדמרק | הגורמים למופלא </title>
-    <meta name="description" content="סמינר הגורמים למופלא של לנדמרק. היפכו להיות מאסטרים בלחולל עולם, בו כל דבר אפשרי ">
-    <meta property="og:title" content="סמינר הגורמים למופלא" />
-    <meta property="og:url" content="https://landmarkisrael.online/" />
-    <meta property="og:image" content="https://seminar-reg.netlify.app/images/thumb.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="300">
-    <meta property="og:image:height" content="300">
-    <meta property="og:image:alt" content="Landmark Seminar">
-   
-    <meta property="og:description" content="סמינר הגורמים למופלא של לנדמרק">
-    <link rel="icon" href="/images/favicon.ico" type="images/x-icon" sizes="16x16">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <meta
+      property="og:description"
+      content="סמינר להיות כאן ועכשיו של לנדמרק"
+    />
+    <link
+      rel="icon"
+      href="/images/favicon.ico"
+      type="images/x-icon"
+      sizes="16x16"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body onload="init()">
-    
+  <body onload="init()">
     <header class="main-container">
-        <div class="container">
-            <img src="images/logo.png" alt="Landmark">
-            <div class="online">קורס מקוון</div>
-            <a href="tel:03-7433200">
-                03-7433200
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                  </svg></a>
-        </div>
+      <div class="container">
+        <img src="images/logo.png" alt="Landmark" />
+        <div class="online">קורס מקוון</div>
+        <a href="tel:03-7433200">
+          03-7433200
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-telephone"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+            /></svg
+        ></a>
+      </div>
     </header>
 
-    <a href="https://wa.me/+972-542970200?text=שלום!%20יש%20לי%20שאלה%20" class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-        </a>
+    <a
+      href="https://wa.me/+972-542970200?text=שלום!%20יש%20לי%20שאלה%20"
+      class="float"
+      target="_blank"
+    >
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <section class="hero">
-        <div class="vail"></div>
-        <h1>רוצים ליצור סביבה בה המופלא יכול לקרות?</h1>
-        <h2> סמינר הגורמים למופלא | 27.12 <br>(ימי ראשון) </h2>
-        <div class="reg-btn" onclick="onRegBtnPressed()">הירשמו עכשיו</div>
+      <div class="vail"></div>
+      <h1>רוצים לחוות את החיים כאן ועכשיו בכל רגע ורגע?</h1>
+      <h2>סמינר להיות כאן ועכשיו | 21.3 <br />(ימי ראשון)</h2>
+      <div class="reg-btn" onclick="onRegBtnPressed()">הירשמו עכשיו</div>
     </section>
     <section class="main-container main">
-        <p class="first-par">
-            רוב הזמן, אנחנו חושבים "כן, אנחנו יכולים ליצור אפשרויות", "כן, יש לנו אמירה לגבי זה"- אבל האם אנחנו באמת יכולים ליצור
-            משהו מחוץ למה שאנחנו מחשיבים כעולם של האפשרי? האם אנחנו יכולים להפיק בעקביות תוצאות שלא תיארנו לעצמנו שניתן להפיק - לא
-            במקרה או במזל? האם יש לנו את היכולת ליצור סביבה בה המופלא יכול לקרות?
+      <p class="first-par">
+        רתחשבו על המונח "להיות כאן ועכשיו". אתם עשויים לחשוב שזה אומר לא לשקוע
+        בויתורים או חרטות מן העבר או להתעסק בדאגות לגבי העתיד. זה יכול להישמע
+        לכם כאילו זה כמו ויפאסנה, זן או מדיטציה. אולי זה עשוי להישמע כמו "החיים
+        קורים עכשיו, ממש ברגע זה". אולי זה פשוט נשמע לכם כמו "להיות ב-zone".
+        בסמינר אתם תגלו לעצמם ותופתעו איך זה נראה במציאות "להיות כאן ועכשיו".
+      </p>
+      <h3>היפכו להיות מאסטרים בלחיות את החיים כאן ועכשיו בכל רגע ורגע</h3>
+      <div class="img-par">
+        <img class="img-left" />
+        <p class="p-right">
+          בסמינר תגלו עד כמה אתם מעוצבים ומוגבלים על ידי מפחי נפש, כולל מפחי
+          הנפש המופיעים פשוט כחלק מהאופן שהחיים הם, ותתחילו לראות איך נראים חיים
+          מחוץ לעולם של מפחי נפש. אתם תישארו עם הבעלות הטבעית על מי שאתם
+          והאפשרות שתהיה זמינה עבורכם היא האפשרות של יצירת ערך מלהיות "על המגרש"
+          כל רגע ורגע. אתם תרחיבו באופן דרמטי את היכולת שלכם לעשות הבדל ותשארו
+          עם תחושה חדשה של הגשמה וביטוי עצמי.
         </p>
-        <h3> היפכו להיות מאסטרים בלחולל עולם, בו כל דבר אפשרי
-        </h3>
-        <div class="img-par">
-            <img class="img-left">
-            <p class="p-right">
-                אתם לא יכולים להרוויח נסים. אתם לא יכולים לקבל נס כי מגיע לכם או לעבוד קשה כדי להשיג אחד. לגרום למופלא, להפוך את הנס
-                לאפשרי קיים מחוץ למה שאנחנו יכולים להסביר - המופלא אינו מתאים למציאות כפי שאנחנו מבינים אותה. הסמינר הזה הוא על לאפשר
-                למה שאתם חושבים שאינו אפשרי - להופיע. הוא על לרכוש כלים, תובנות והבנה מה נדרש כדי ליצור סביבה שבה אתם יכולים לגרום
-                למופלא להופיע במציאות ולהיות מאסטרים ליצור את זה בחיים שלכם באופן מתמשך.
-            </p>
-
-        </div>
-
+      </div>
     </section>
     <section class="registration">
-        <div class="middle reg-header">
-            <h4>טופס ההרשמה לסמינר הגורמים למופלא</h4>
-            <h6>הסמינר מורכב מ-10 מפגשים בשעות 19:00 - 22:00 בימי ראשון</h6>
-            <h6>המפגש הראשון מתקיים ב-27.12</h6>
-            <h6>שכר הלימוד: 900 שקלים</h6>
-
-        </div>
-        <div class="alert alert-success alert-dismissible text-right hidden" role="alert" id="alert">
-         הפרטים שלך נשלחו בהצלחה והנך מועבר לעמוד מאובטח להשלמת התשלום!
-         אם עמוד התשלום לא נפתח לחצ/י על <a href="#" class="alert-link" target="_blank">קישור</a>
+      <div class="middle reg-header">
+        <h4>טופס ההרשמה לסמינר להיות כאן ועכשיו</h4>
+        <h6>הסמינר מורכב מ-10 מפגשים בשעות 19:00 - 22:00 בימי ראשון</h6>
+        <h6>המפגש הראשון מתקיים ב-21.3</h6>
+        <h6>שכר הלימוד: 900 שקלים</h6>
+      </div>
+      <div
+        class="alert alert-success alert-dismissible text-right hidden"
+        role="alert"
+        id="alert"
+      >
+        הפרטים שלך נשלחו בהצלחה והנך מועבר לעמוד מאובטח להשלמת התשלום! אם עמוד
+        התשלום לא נפתח לחצ/י על
+        <a href="#" class="alert-link" target="_blank">קישור</a>
+      </div>
+      <form
+        name="seminar-form"
+        class="middle needs-validation"
+        id="reg-form"
+        method="POST"
+        action=""
+        data-netlify="true"
+        novalidate
+      >
+        <div class="row mb-2 name">
+          <div class="col text-right">
+            <label for="inputName">שם פרטי</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="inputName"
+              placeholder="שם פרטי"
+              required
+            />
           </div>
-        <form name="seminar-form" class="middle needs-validation" id="reg-form" method="POST" action="" data-netlify="true" novalidate >
-            <div class="row mb-2 name">
-                <div class="col text-right">
-                    <label for="inputName">שם פרטי</label>
-                    <input type="text" class="form-control" name="name" id="inputName" placeholder="שם פרטי" required>
-                </div>
-                <div class="col text-right">
-                    <label for="inputLastName">שם משפחה</label>
-                    <input type="text" class="form-control" name="lastname" id="inputLastName" placeholder="שם משפחה" required>
-                </div>
-            </div>
-            <div class="row mb-2 contact ">
-                <div class="col text-right">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="name@dom.com"  required>
-                </div>
-                <div class="col text-right">
-                    <label for="inputPhoneNumber">מספר טלפון</label>
-                    <input type="tel" class="form-control" name="phone" id="inputPhoneNumber" placeholder="05X-XXXXXX" required>
-                </div>
-            </div>
-            <div class="row mb-2 address">
-                <div class="col text-right">
-                    <label for="inputAddress">כתובת</label>
-                    <input type="text" class="form-control" name="address" id="inputAddress" placeholder="רח' אלנבי 12/10" required>
-                </div>
-                <div class="col text-right">
-                    <label for="inputCity">עיר</label>
-                    <input type="text" class="form-control" name="city" id="inputCity" placeholder="תל אביב" required>
-                </div>
-            </div>
-            <!-- <div class="form-check text-right">
+          <div class="col text-right">
+            <label for="inputLastName">שם משפחה</label>
+            <input
+              type="text"
+              class="form-control"
+              name="lastname"
+              id="inputLastName"
+              placeholder="שם משפחה"
+              required
+            />
+          </div>
+        </div>
+        <div class="row mb-2 contact">
+          <div class="col text-right">
+            <label for="inputEmail4">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              id="inputEmail4"
+              placeholder="name@dom.com"
+              required
+            />
+          </div>
+          <div class="col text-right">
+            <label for="inputPhoneNumber">מספר טלפון</label>
+            <input
+              type="tel"
+              class="form-control"
+              name="phone"
+              id="inputPhoneNumber"
+              placeholder="05X-XXXXXX"
+              required
+            />
+          </div>
+        </div>
+        <div class="row mb-2 address">
+          <div class="col text-right">
+            <label for="inputAddress">כתובת</label>
+            <input
+              type="text"
+              class="form-control"
+              name="address"
+              id="inputAddress"
+              placeholder="רח' אלנבי 12/10"
+              required
+            />
+          </div>
+          <div class="col text-right">
+            <label for="inputCity">עיר</label>
+            <input
+              type="text"
+              class="form-control"
+              name="city"
+              id="inputCity"
+              placeholder="תל אביב"
+              required
+            />
+          </div>
+        </div>
+        <!-- <div class="form-check text-right">
                 <label>תנאי מקדים להשתתפות בסמינר: </label>
             </div>
             <div class="form-check text-right">
@@ -123,21 +207,21 @@
                     בוגר/ת המסלול לחיים(פורום, מתקדם, ביטוי עצמי ומנהיגות)
                 </label>
             </div> -->
-            <div class=" text-center">
-                <button  type="submit" class="btn btn-primary submit-btn" >מעבר לתשלום מאובטח</button>
-            </div>
-        </form>
-
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary submit-btn">
+            מעבר לתשלום מאובטח
+          </button>
+        </div>
+      </form>
     </section>
 
     <footer>
-        <div>זכויות יוצרים © Landmark Worldwide 2020. כל הזכויות שמורות.</div>
+      <div>זכויות יוצרים © Landmark Worldwide 2020. כל הזכויות שמורות.</div>
     </footer>
     <script src="js/main.js"></script>
     <script src="libs/jquery-3.5.1.min.js"></script>
     <script src="libs/bootstrap.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
-</body>
-
-</html> 
+  </body>
+</html>
